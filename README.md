@@ -12,14 +12,6 @@ Este projeto consiste em uma landing page estática desenvolvida para a Clínica
 - **Vite** - Build tool e bundler
 - **React Router DOM** - Gerenciamento de rotas
 
-### 📦 Principais Dependências
-
-- @tanstack/react-query
-- shadcn/ui (componentes reutilizáveis)
-- lucide-react (ícones)
-- react-hook-form
-- zod (validação)
-
 ## 🎯 Funcionalidades Implementadas
 
 1. **Header com Hero Section**
@@ -108,20 +100,22 @@ Este projeto está hospedado na Vercel, uma plataforma moderna de hospedagem vol
 
 O processo de deploy foi realizado da seguinte forma:
 
-Conta na Vercel
-Foi criada (ou usada) uma conta gratuita no site vercel.com.
+1. Conta na Vercel
 
-Importação do repositório GitHub
-Na dashboard da Vercel, o repositório deste projeto foi importado diretamente através da integração com o GitHub.
+- Utilizei uma conta gratuita no site vercel.com.
 
-Configuração automática
+2. Importação do repositório GitHub
 
-A Vercel detectou automaticamente o framework utilizado (Vite) e configurou o ambiente de build.
+- Na dashboard da Vercel, o repositório deste projeto foi importado diretamente através da integração com o GitHub.
 
-A branch main foi selecionada como fonte do deploy.
+3. Configuração automática
 
-Deploy contínuo (CI/CD)
-A cada novo push na branch main, a Vercel executa o build e atualiza automaticamente o site com as alterações.
+- A Vercel detectou automaticamente o framework utilizado (Vite) e configurou o ambiente de build.
+- A branch main foi selecionada como fonte do deploy.
+
+4. Deploy contínuo (CI/CD)
+
+- A cada novo push na branch main, a Vercel executa o build e atualiza automaticamente o site com as alterações.
 
 🌐 Link para o projeto online
 https://clinica-landing-page-iota.vercel.app/
