@@ -98,6 +98,34 @@ npm run dev
 
 4. Acesse http://localhost:8080 no seu navegador
 
+## Site do projeto
+
+Para acessar a versão final do projeto acesse: https://clinica-landing-page-iota.vercel.app/
+
+Este projeto está hospedado na Vercel, uma plataforma moderna de hospedagem voltada para frontends, APIs e projetos fullstack.
+
+### 📦 Como foi feito o deploy
+
+O processo de deploy foi realizado da seguinte forma:
+
+Conta na Vercel
+Foi criada (ou usada) uma conta gratuita no site vercel.com.
+
+Importação do repositório GitHub
+Na dashboard da Vercel, o repositório deste projeto foi importado diretamente através da integração com o GitHub.
+
+Configuração automática
+
+A Vercel detectou automaticamente o framework utilizado (Vite) e configurou o ambiente de build.
+
+A branch main foi selecionada como fonte do deploy.
+
+Deploy contínuo (CI/CD)
+A cada novo push na branch main, a Vercel executa o build e atualiza automaticamente o site com as alterações.
+
+🌐 Link para o projeto online
+https://clinica-landing-page-iota.vercel.app/
+
 ## 🤝 Contribuição
 
 Para contribuir com o projeto:
